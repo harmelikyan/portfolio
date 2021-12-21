@@ -58,6 +58,13 @@ p {
     font-weight: 300;
 }
 
+@media only screen and(max-width: 590) {
+    * {
+        max-width: 3000px;
+        background-color: #ef744b;
+    }
+}
+
 .hero-area {
     display: flex;
     height: 100%;
